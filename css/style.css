@@ -1,0 +1,586 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 20px;
+  color: black;
+  background-color: #F0FFFF!important;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  height: 100vh;
+  /* background-image:linear-gradient(rgba(0,0,0,0.6 ),rgba(0,0 ,0 ,0.6 )), url('../images/2.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* ///////////////// Actual Css starts from here //////////////////// */
+
+
+
+
+
+
+
+/* ///////////////////// Navbar ///////////////// */
+
+
+
+
+.name{
+  width: 100%;
+  height: 160px;
+  background-image: linear-gradient(to top, #ffff99, #ffff10);
+  display: inline-block;
+}
+
+
+.mainlogo{
+  height: 100px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.school{
+  float: right;
+  color: red;
+  font-weight: bold;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  margin-top: 60px;
+  margin-right: 140px;
+}
+
+
+.time{
+  float: right;
+  font-size: 25px;
+  margin-right: 250px;
+  color: #000066;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+
+.clearfix:after{
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+
+.hm{
+  max-width: 1180px;
+  margin: 0 auto;
+  background-color: #006600;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+
+}
+
+
+.hm1{
+  max-width: 1180px;
+  margin: 0 auto;
+  background-color: #006600;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+
+}
+
+.one-nav{
+  display: inline-block;
+  margin-left: 34%; 
+  color: #ffff99; 
+  background-color: #006600;
+  text-transform: uppercase;
+  font-size: 60%;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+
+
+
+
+.opper{
+  display: inline-block;
+  color: #ffff99; 
+  background-color: #006600;
+  text-transform: uppercase;
+  font-size: 60%;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.main{
+  display: inline-block;
+  margin-left: 34%;
+  color: #ffff77; 
+  background-color: #006600;
+  text-transform: uppercase;
+  font-size: 60%;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.niche{
+  display: inline-block;  
+  color: #ffff77; 
+  background-color: #006600;
+  text-transform: uppercase;
+  font-size: 60%;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.hm a button:hover{
+    background-color: #ffffcc;
+    color: #003300;
+
+}
+
+
+.hm1 a button:hover{
+    background-color: #ffffcc;
+    color: #003300;
+
+}
+
+
+/* ///////////////////// Navbar Ends ///////////////// */
+
+
+
+
+
+/* ////////////////// Slider ///////////////// */
+
+
+
+.MAINDIV{
+  width: 70%;
+  height: 460px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../images/img5.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  animation: slider 8s infinite;
+  margin-top: 152px;
+  border-radius: 7px;
+  box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 1);
+}
+
+
+@keyframes slider{
+  0%{ background-image: url('../images/img5.jpg'); }
+  20%{ background-image: url('../images/img3.jpg'); }
+  40%{ background-image: url('../images/img4.jpg'); }
+  60%{ background-image: url('../images/img1.jpg'); }
+  80%{ background-image: url('../images/img2.jpg'); }
+  /* 100%{ background-image: url('../images/img5.jpg'); } */
+}
+
+
+
+
+
+/* ////////////////// Slider Ends ///////////////// */
+
+
+
+
+
+/* ///////////////////// Cards /////////////////// */
+
+
+
+
+.hello{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7f9ead;
+  margin-top: 30px;
+}
+
+
+.card{
+  position: absolute;
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 30px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 60%;
+  filter: blur(5px);
+
+}
+
+.card:hover{
+  height: 320px;
+  filter: blur(0px);
+}
+
+
+.card1{
+  position: absolute;
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 30px;
+  background: #fff;
+  cursor: pointer;
+  filter: blur(5px);
+
+}
+
+.card1:hover{
+  height: 320px;
+  filter: blur(0px);
+}
+
+
+.card2{
+  position: absolute;
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 30px;
+  background: #fff;
+  cursor: pointer;
+  margin-left: 60%;
+  filter: blur(5px);
+
+}
+
+.card2:hover{
+  height: 320px;
+  filter: blur(0px);
+}
+
+
+.imgbox{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  z-index: 99;
+}
+
+
+.imgbox img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.imgbox1{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  z-index: 99;
+}
+
+
+.imgbox1 img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.imgbox2{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  z-index: 99;
+}
+
+
+.imgbox2 img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.content{
+  font-size: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover > .content{
+  opacity: 1;
+  transform: translateY(-150px);
+}
+
+.content h2{
+  color: #7f9ead;
+}
+
+
+
+.content1{
+  font-size: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card1:hover > .content1{
+  opacity: 1;
+  transform: translateY(-150px);
+}
+
+.content1 h2{
+  color: #7f9ead;
+}
+
+
+
+.content2{
+  font-size: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card2:hover > .content2{
+  opacity: 1;
+  transform: translateY(-150px);
+}
+
+.content2 h2{
+  color: #7f9ead;
+}
+
+
+
+
+
+
+/* ///////////////////// Cards Ends /////////////////// */
+
+
+
+
+
+
+
+
+/* //////////////////About Colledge////////////////// */
+
+
+
+
+
+
+
+.hi{
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to top, #ffff99, #ffff10);
+  margin-top: 10px;
+}
+
+
+.wel{
+  padding: 40px 0;
+  color: #6A5ACD;
+  text-align: center;
+  font-weight: bold;
+  box-sizing: border-box;
+  word-spacing: 1px;
+  /* letter-spacing: 1px; */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.all_about{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #CD5C5C;
+}
+
+
+/* //////////////////About Colledge Ends////////////////// */
+
+
+
+
+
+
+
+
+/* ******************* Footer ****************** */
+
+
+
+
+
+.footer{
+  margin-top: 10px;
+  width: 100%;
+  height: 5rem;
+  background-color: #0a183d!important;
+  font-family: 'Comforter', cursive;
+}
+
+.footer p{
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 5rem;
+}
+
+
+
+
+
+
+/* ******************* Footer Ends ****************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- Java --------------------- */
+
+
+
+@media only screen and (max-width: 1308px){
+  .school{
+    font-size: 30px;
+  }
+
+  .time{
+    font-size: 15px;
+    margin-right: 100px;
+  }
+}
+
+
+
+@media only screen and (max-width: 1224px){
+    .school{
+    font-size: 15px;
+    margin-left: 300px;
+  }
+
+  .time{
+    font-size: 10px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-right: 75px;
+  }
+}
+
+@media only screen and (max-width: 1022px){
+  .MAINDIV{height: 200px;}
+  .man-nav{size: 30px;}
+}
+
+
+@media only screen and (max-width: 902px){
+  .school{font-size: 10px;}
+
+  .time{display: none;}
+}
+
+
+
+
+@media only screen and (max-width: 794px){
+  .school{display: none;}
+}
+
+
+
+
+
+
+/* --------------------- Java Ends ------------------ */
+
+
+
+
+
+
+
+
